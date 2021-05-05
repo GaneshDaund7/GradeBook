@@ -1,0 +1,4 @@
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.exe
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\GradeBook\obj\x86\Debug\GradeBook.exe
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\GradeBook\obj\x86\Debug\GradeBook.pdb
