@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GradeBook
 {
-    class Books
+   public class Books
     {
         List<double> Grades=new List<double>();
          string name;
@@ -19,26 +19,29 @@ namespace GradeBook
             Grades.Add(grade);
         }
 
-        public void ShowStats()
+        public Stats GetStats()
         {
-            var res = 0.0;
-            var LowGrade = Grades[0];
-            var HighGrade = Grades[0];
+            var res =new Stats();
+            res.Average=0.0;
+            res.LowGrade = Grades[0];
+            res.HighGrade = Grades[0];
             foreach (var i in Grades)
             {
-                if (HighGrade < i)
-                    HighGrade = i;
-                if (LowGrade> i)
-                    LowGrade = i;
-                res += i;
+                if (res.HighGrade < i)
+                    res.HighGrade = i;
+                if (res.LowGrade> i)
+                    res.LowGrade = i;
+                res.Average += i;
+
+                
             }
                 
-            res /= Grades.Count;
-            Console.WriteLine("The HighestGarde is " + HighGrade);
-            Console.WriteLine("The LowestGrade is " + LowGrade);
-            Console.WriteLine("The Average Garde is "+ res);
-            Console.WriteLine();
-           
+            res.Average /= Grades.Count;
+            //Console.WriteLine("The HighestGarde is " + HighGrade);
+            //Console.WriteLine("The LowestGrade is " + LowGrade);
+            //Console.WriteLine("The Average Garde is "+ res);
+            //Console.WriteLine();
+            return res;
         }
         
     }

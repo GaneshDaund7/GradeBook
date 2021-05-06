@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bbdcf8ea-1e69-4f4c-bf28-200bc77d2637" name="Lenovo@DESKTOP-OMTOADV 2021-05-06 11:23:57" runUser="DESKTOP-OMTOADV\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a8776c9b-56d1-4d32-b435-69cf70903b58">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Lenovo_DESKTOP-OMTOADV 2021-05-06 11_23_57">
+      <DeploymentItem filename="C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\GradeBook\bin\Debug\GradeBook.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-05-06T11:23:57.0506404+05:30" queuing="2021-05-06T11:23:57.3025151+05:30" start="2021-05-06T11:23:57.4568957+05:30" finish="2021-05-06T11:23:58.6044537+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowStatTests" storage="c:\users\lenovo\documents\visual studio 2010\projects\gradebook\unittestproject\bin\debug\unittestproject.dll" id="b3a0b746-245a-98a5-a8c4-f94f84776ae3">
+      <Execution id="1a54a1d5-f8db-40fc-876e-944b10e95147" />
+      <TestMethod codeBase="C:/Users/Lenovo/Documents/Visual Studio 2010/Projects/GradeBook/UnitTestProject/bin/Debug/UnitTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject.BooksTests, UnitTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowStatTests" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" executionId="1a54a1d5-f8db-40fc-876e-944b10e95147" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a54a1d5-f8db-40fc-876e-944b10e95147" testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" testName="ShowStatTests" computerName="DESKTOP-OMTOADV" duration="00:00:00.3390972" startTime="2021-05-06T11:23:57.5074483+05:30" endTime="2021-05-06T11:23:58.5641433+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a54a1d5-f8db-40fc-876e-944b10e95147">
+      <Output>
+        <StdOut>Welome to</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

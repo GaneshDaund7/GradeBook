@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b7a8ea10-863b-403d-8247-afb9b685c56e" name="Lenovo@DESKTOP-OMTOADV 2021-05-06 10:20:29" runUser="DESKTOP-OMTOADV\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a8776c9b-56d1-4d32-b435-69cf70903b58">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Lenovo_DESKTOP-OMTOADV 2021-05-06 10_20_29" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-05-06T10:20:29.3615117+05:30" queuing="2021-05-06T10:20:30.7556638+05:30" start="2021-05-06T10:20:30.7959700+05:30" finish="2021-05-06T10:20:31.5730013+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowStatTests" storage="c:\users\lenovo\documents\visual studio 2010\projects\gradebook\unittestproject\bin\debug\unittestproject.dll" id="b3a0b746-245a-98a5-a8c4-f94f84776ae3">
+      <Execution id="abb5709b-0963-49bc-be47-04cffe30151e" />
+      <TestMethod codeBase="C:/Users/Lenovo/Documents/Visual Studio 2010/Projects/GradeBook/UnitTestProject/bin/Debug/UnitTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject.BooksTests, UnitTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowStatTests" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" executionId="abb5709b-0963-49bc-be47-04cffe30151e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="abb5709b-0963-49bc-be47-04cffe30151e" testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" testName="ShowStatTests" computerName="DESKTOP-OMTOADV" duration="00:00:00.0695632" startTime="2021-05-06T10:20:30.8060249+05:30" endTime="2021-05-06T10:20:31.5111658+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abb5709b-0963-49bc-be47-04cffe30151e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;15&gt;. Actual:&lt;50&gt;. </Message>
+          <StackTrace>   at UnitTestProject.BooksTests.ShowStatTests() in C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\UnitTest1.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

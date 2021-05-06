@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="48061e46-ac39-48ca-9cb5-2bd0832bf8e7" name="Lenovo@DESKTOP-OMTOADV 2021-05-06 10:22:02" runUser="DESKTOP-OMTOADV\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a8776c9b-56d1-4d32-b435-69cf70903b58">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Lenovo_DESKTOP-OMTOADV 2021-05-06 10_22_02" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-05-06T10:22:02.8348465+05:30" queuing="2021-05-06T10:22:02.9778833+05:30" start="2021-05-06T10:22:03.0485895+05:30" finish="2021-05-06T10:22:03.8753044+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowStatTests" storage="c:\users\lenovo\documents\visual studio 2010\projects\gradebook\unittestproject\bin\debug\unittestproject.dll" id="b3a0b746-245a-98a5-a8c4-f94f84776ae3">
+      <Execution id="b21d53ad-1b96-440b-9f1e-257149c1d983" />
+      <TestMethod codeBase="C:/Users/Lenovo/Documents/Visual Studio 2010/Projects/GradeBook/UnitTestProject/bin/Debug/UnitTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject.BooksTests, UnitTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowStatTests" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" executionId="b21d53ad-1b96-440b-9f1e-257149c1d983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b21d53ad-1b96-440b-9f1e-257149c1d983" testId="b3a0b746-245a-98a5-a8c4-f94f84776ae3" testName="ShowStatTests" computerName="DESKTOP-OMTOADV" duration="00:00:00.0207186" startTime="2021-05-06T10:22:03.1073824+05:30" endTime="2021-05-06T10:22:03.8462059+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b21d53ad-1b96-440b-9f1e-257149c1d983">
+    </UnitTestResult>
+  </Results>
+</TestRun>

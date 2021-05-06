@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\bin\Debug\GradeBook.exe
+C:\Users\Lenovo\Documents\Visual Studio 2010\Projects\GradeBook\UnitTestProject\bin\Debug\GradeBook.pdb
